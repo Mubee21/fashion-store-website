@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm ">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-danger  fs-3" href="#">DD</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav  ms-auto d-flex gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Reviews</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-danger btn-sm px-4 mt-3 mt-lg-0 ms-lg-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+    <main>
+        <section>
+
+            <!--modal Contact us-->
+            <div class="modal" tabindex="-1" aria-labelledby="exampleModalLabel" id="exampleModal" >
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fs-5 fw-bold text-center text-danger" >Contact Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form method="post">
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="First Name" />
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" placeholder="Last Name" />
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <input type="email" class="form-control" placeholder="Email Address" />
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+                                </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </section>
+        <section class="min-vh-90" id="#home">
+            <div class="container my-5">
+
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <h2 class="fw-bold mb-4 display-5"> Elevate Your Style </h2>
+                        <p class="fw-semibold text-danger mb-4 h5">Trendy Clothes & Unique Dresses </p>
+                        <p class=" mb-4 text-muted">The latest clothing trends blend comfort with style, featuring bold
+                            colors and
+                            modern
+                            silhouettes.Today’s fashion focuses on sustainable fabrics and versatile outfits perfect for
+                            any
+                            occasion.</p>
+                        <p class="fw-semibold mb-4">Explore our clothing collection to discover trendy styles that match
+                            your unique personality.
+                            From casual wear to elegant outfits, we’ve got everything you need to refresh your wardrobe.
+                        </p>
+
+
+                        <div class="row  text-center mb-3">
+                            <div class="col">
+                                <p class="h3 fw-bold text-danger">5+</p>
+                                <p class="text-muted">Years Experience</p>
+                            </div>
+                            <div class="col">
+                                <p class="h3 fw-bold text-danger">100+</p>
+                                <p class="text-muted">Happy Customers</p>
+                            </div>
+                            <div class="col">
+                                <p class="h3 fw-bold text-danger">50+</p>
+                                <p class="text-muted">Products</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <button type="button" class="btn btn-danger">Shop Now</button>
+                            <button type="button" class="btn btn-outline-danger fw-semibold">Explore Collection</button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row align-items-center" style="min-height: 450px;">
+                            <div class="col d-flex justify-content-center">
+                                <img src="/assets/clothing store.jpg" alt="profile"
+                                    class="img-fluid  w-100 object-fit-cover rounded border"
+                                    style="max-height: 400px; ">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="#about">
+            <p class="h1 text-center fw-bold my-5">About <span class="text-danger">US</span></p>
+            <div class=" container my-5">
+                <div class="row my-5">
+                    <div class="col-xl-6">
+                        <div class="card border-0">
+
+                            <img src="/assets/xxyyzz.jpg" class="card-img-top object-fit-cover rounded-top w-100 "
+                                alt="bag" style="height: 330px; ">
+                        </div>
+                        <div class="card-body shadow py-3">
+                            <p class="card-text text-center fw-bold h5">Dapper Dame</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 ">
+                        <div>
+                            <p class="h4 fw-bold my-3">Why Choose Us</p>
+                            <p>At our fashion boutique, we believe style is more than just clothing — it’s an expression
+                                of who you are. We offer carefully curated collections that blend elegance, comfort, and
+                                modern trends to help you stand out with confidence.</p>
+                            <p class="my-3"> Our team is passionate about bringing you quality pieces made with
+                                attention to detail.
+                                From timeless classics to the latest designs, we ensure every outfit makes you feel
+                                unique and beautiful.</p>
+
+                            <div class="d-flex flex-column flex-sm-row justify-content-between gap-2 gap-sm-4">
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex  ">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <span class="fw-semibold">Premium Quality Materials</span>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <span class="fw-semibold">Personal Styling Services</span>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex ">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <span class="fw-semibold">Unique Designer Collections</span>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                        <span class="fw-semibold">Sustainable & Ethical Fashion</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <button type="button" class="btn btn-danger my-3 px-4 py-2">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container">
+                <div class="row text-center">
+
+                    <!-- Card 1 -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100 border-0 shadow">
+                            <div class="card-body ">
+                                <i class="bi bi-truck  mb-3 text-danger fs-3"></i>
+                                <h6 class="card-title fw-bold">Free Delivery</h6>
+                                <p class="card-text  text-muted">
+                                    We offer free shipping on orders above $50. Treat yourself and let
+                                    us deliver it right to your door for free!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100 border-0 shadow">
+                            <div class="card-body">
+                                <i class="bi bi-arrow-counterclockwise mb-3 text-danger fs-3"></i>
+                                <h6 class="card-title fw-bold">Easy Returns</h6>
+                                <p class="card-text  text-muted">
+                                    Changed your mind? Enjoy hassle-free returns within 30 days — we make it simple and
+                                    stress-free!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100 border-0 shadow">
+                            <div class="card-body">
+                                <i class="bi bi-shield-check mb-3 text-danger fs-3"></i>
+                                <h6 class="card-title fw-bold">Secure Payment</h6>
+                                <p class="card-text text-muted">
+                                    Shop with confidence! Your payment details are protected with advanced encryption
+                                    for total peace of mind.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section>
+            <p class="h1 text-center fw-bold my-5">Latest <span class="text-danger">Products</span></p>
+            <div class="container">
+                <div class="row g-3 ">
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow ">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-10%</span>
+                            <img src="/assets/maroon.jpg" class="card-img-top " alt="maroon" style="height: 500px;">
+                            <div class="card-body ">
+                                <h5 class="card-title">Pajamas Long Sleeve</h5>
+                                <p class="card-text my-2">light and comfortable</p>
+                                <p>
+
+                                    <span class="fw-bold text-danger ">$59.99</span>
+                                    <span class="text-muted text-decoration-line-through"
+                                        style="font-size:0.8rem;">$80.00</span>
+                                </p>
+                                <a href="#" class="btn btn-danger w-100">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card border-0 shadow">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-10%</span>
+                            <img src="/assets/green.jpg" class="card-img-top " alt="green" style="height: 500px;">
+                            <div class="card-body ">
+                                <h5 class="card-title">Skirt and Top</h5>
+                                <p class="card-text my-2">Effortless elegance and redefined </p>
+                                <p>
+
+                                    <span class="fw-bold text-danger ">$59.99</span>
+                                    <span class="text-muted text-decoration-line-through"
+                                        style="font-size:0.8rem;">$80.00</span>
+                                </p>
+
+                                <a href="#" class="btn btn-danger w-100">Add to Cart</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="card border-0 shadow">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-2">-15%</span>
+                            <img src="/assets/black.jpg" class="card-img-top " alt="black" style="height: 500px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Black Embriodory Co-ord Set</h5>
+                                <p class="card-text my-2">Timeless and versatile</p>
+                                <p>
+
+                                    <span class="fw-bold text-danger ">$59.99</span>
+                                    <span class="text-muted text-decoration-line-through"
+                                        style="font-size:0.8rem;">$80.00</span>
+                                </p>
+                                <a href="#" class="btn btn-danger w-100">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-danger d-block  mx-auto my-5 px-3">View All
+                    Products</button>
+            </div>
+        </section>
+
+
+
+
+
+        <!--reviews-->
+          <section>
+                <p class="h1 text-center fw-bold mb-5">What Our Clients Say</p>
+            <div class="container my-5">
+        
+                  
+              
+                <div class="row">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                
+                                <div class="row my-4 text-center">
+                                    <div class="col-md-4">
+                                         <div class="card border-0 shadow h-100 text-center p-3">
+                                            <img src="/assets/sarah.jpg"
+                                                class="card-img-top rounded-circle d-block mx-auto mb-3"
+                                                style="height:100px; width:100px;" alt="sarah">
+                                            <p class="fw-bold mb-1">Sarah Johnson</p>
+                                            <p class="text-muted mb-2">Fashion Blogger</p>
+                                            <p class="card-text fst-italic text-muted">I love the dresses! The quality
+                                                is amazing and the delivery was super fast. Highly recommend this shop!
+                                            </p>
+                                            <div class="text-warning">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                           <div class="col-md-4">
+                                        <div class="card border-0 shadow h-100 text-center p-3">
+                                            <img src="/assets/jessica.jpg"
+                                                class="card-img-top rounded-circle d-block mx-auto mb-3"
+                                                style="height:100px; width:100px;" alt="jessica">
+                                            <p class="fw-bold mb-1">Jessica Miller</p>
+                                            <p class="text-muted mb-2">Regular Customer</p>
+                                            <p class="card-text fst-italic text-muted">Absolutely loved my new outfit!
+                                                The fabric is soft, fits perfectly, and the style is trendy. Will buy
+                                                again!</p>
+                                            <div class="text-warning">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="col-md-4">
+                                        <div class="card border-0 shadow h-100 text-center p-3">
+                                            <img src="/assets/emily.jpg"
+                                                class="card-img-top rounded-circle d-block mx-auto mb-3"
+                                                style="height:100px; width:100px;" alt="emily">
+                                            <p class="fw-bold mb-1">Emily Davis</p>
+                                            <p class="text-muted mb-2">Office Executive</p>
+                                            <p class="card-text fst-italic text-muted">I ordered a party dress and it
+                                                fit perfectly. The delivery was fast, and the quality exceeded my
+                                                expectations.</p>
+                                            <div class="text-warning">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row my-4 text-center g-3">
+                                    <div class="col-md-4">
+                                         <div class="card border-0 shadow h-100 text-center p-3">
+                                            <img src="/assets/sarah.jpg"
+                                                class="card-img-top rounded-circle d-block mx-auto mb-3"
+                                                style="height:100px; width:100px;" alt="sarah">
+                                            <p class="fw-bold mb-1">Sarah Johnson</p>
+                                            <p class="text-muted mb-2">Fashion Blogger</p>
+                                            <p class="card-text fst-italic text-muted">I love the dresses! The quality
+                                                is amazing and the delivery was super fast. Highly recommend this shop!
+                                            </p>
+                                            <div class="text-warning">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                           
+                                        <div class="card border-0 shadow h-100 text-center p-3">
+                                            <img src="/assets/jessica.jpg"
+                                                class="card-img-top rounded-circle d-block mx-auto mb-3"
+                                                style="height:100px; width:100px;" alt="jessica">
+                                            <p class="fw-bold mb-1">Jessica Miller</p>
+                                            <p class="text-muted mb-2">Regular Customer</p>
+                                            <p class="card-text fst-italic text-muted">Absolutely loved my new outfit!
+                                                The fabric is soft, fits perfectly, and the style is trendy. Will buy
+                                                again!</p>
+                                            <div class="text-warning">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="col-md-4">
+                                         <div class="card border-0 shadow h-100 text-center p-3">
+                                            <img src="/assets/emily.jpg"
+                                                class="card-img-top rounded-circle d-block mx-auto mb-3"
+                                                style="height:100px; width:100px;" alt="emily">
+                                            <p class="fw-bold mb-1">Emily Davis</p>
+                                            <p class="text-muted mb-2">Office Executive</p>
+                                            <p class="card-text fst-italic text-muted">I ordered a party dress and it
+                                                fit perfectly. The delivery was fast, and the quality exceeded my
+                                                expectations.</p>
+                                            <div class="text-warning">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-danger rounded-circle" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-danger rounded-circle" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+
+
+
+        <section class="bg-danger text-white text-center py-5">
+            <div class="container">
+                <h5 class="fw-bold">Subscribe to Our Newsletter</h5>
+                <p>Get the latest fashion trends, exclusive offers, and style tips delivered directly to your inbox.</p>
+                <form class="d-flex justify-content-center mt-3">
+                    <input type="email" class="form-control w-25 w-auto me-2" placeholder="Your email address">
+                    <button class="btn btn-dark" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+    <footer class="bg-dark text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row  justify-content-center ">
+
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <ul class="list-unstyled ">
+                        <li><a href="#" class="text-white-50 text-decoration-none  ">Home</a></li>
+                        <li><a href="#" class="text-white-50  text-decoration-none  ">About</a></li>
+                        <li><a href="#" class="text-white-50  text-decoration-none ">Products</a></li>
+                        <li><a href="#" class="text-white-50  text-decoration-none ">Reviews</a></li>
+                        <li><a href="#" class="text-white-50  text-decoration-none ">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories -->
+                <div class=" col-12 col-sm-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold">Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Dresses</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Tops</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Bottoms</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Outerwear</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Accessories</a></li>
+                    </ul>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold">Customer Service</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Shipping Policy</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Returns & Exchanges</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Size Guide</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">Care Instructions</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none ">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold">Contact Info</h6>
+                    <p class="mb-1"><i class="bi bi-telephone me-2"></i> (+94) 0812345678</p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i> dd@dapperdame.com</p>
+                    <p class="mb-1"><i class="bi bi-geo-alt me-2"></i> Peradeniya Rd,Kandy</p>
+                    <div class="d-flex gap-2 mt-2">
+                        <a href="#" class="text-white-50"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white-50"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white-50"><i class="bi bi-x"></i></a>
+                        <a href="#" class="text-white-50"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-secondary">
+            <div class="d-flex justify-content-between small">
+                <p class="mb-0">&copy; 2025 Dapper Dame. All rights reserved.</p>
+                <div>
+                    <a href="#" class="text-white-50 text-decoration-none me-3 ">Privacy Policy</a>
+                    <a href="#" class="text-white-50 text-decoration-none ">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
